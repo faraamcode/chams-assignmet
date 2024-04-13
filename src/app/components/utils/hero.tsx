@@ -8,7 +8,7 @@ const Hero = () => {
             {/* <!-- <div className="underline"></div> --> */}
             <h1>Wonder Sprout Academy</h1>
             <h4>Empowering Young Minds for a Brighter Future</h4>
-            <a href="contact.html" className="btn hero-btn">contact us</a>
+            <a href="/" className="btn hero-btn">contact us</a>
             {/* <!-- social icons --> */}
             <ul className="social-icons hero-icons">
               <li>

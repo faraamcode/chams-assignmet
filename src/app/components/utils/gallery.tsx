@@ -10,7 +10,7 @@ const Gallery = () => {
             {/* <!--end of section title --> */}
             <div className="section-center projects-center">
                 {/* <!-- single project --> */}
-                <a href="projects.html" className="project-1">
+                <a href="/" className="project-1">
                     <article className="project">
                         <img
                             src="./project-1.jpeg"
@@ -25,7 +25,7 @@ const Gallery = () => {
                 </a>
                 {/* <!-- end of single project --> */}
                 {/* <!-- single project --> */}
-                <a href="projects.html" className="project-2">
+                <a href="/" className="project-2">
                     <article className="project">
                         <img
                             src="./project-2.jpeg"
@@ -39,7 +39,7 @@ const Gallery = () => {
                     </article>
                 </a>
                 {/* <!-- end of single project --><!-- single project --> */}
-                <a href="projects.html" className="project-3">
+                <a href="/" className="project-3">
                     <article className="project">
                         <img
                             src="./project-3.jpeg"
@@ -53,7 +53,7 @@ const Gallery = () => {
                     </article>
                 </a>
                 {/* <!-- end of single project --><!-- single project --> */}
-                <a href="projects.html" className="project-4">
+                <a href="/" className="project-4">
                     <article className="project">
                         <img
                             src="./project-4.jpeg"

@@ -5,8 +5,7 @@ const News = () => {
     <section className="section blog">
       {/* <!-- section title --> */}
       <div className="section-title">
-        <h2>blog</h2>
-        <div className="underline"></div>
+        <h2>News</h2>
       </div>
       {/* <!--end of section title --> */}
       <div className="section-center blog-center">
@@ -18,12 +17,10 @@ const News = () => {
             <div className="card-info">
               <h4>article title</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                Natus, provident.
+                Lorem ipsum dolor sit amet consectetur adipisicing.
               </p>
               <div className="card-footer">
-                <img src="./hero-img-small.jpeg" alt="author image" />
+                {/* <img src="./hero-img-small.jpeg" alt="author image" /> */}
                 <p>7 min read</p>
               </div>
             </div>
@@ -42,12 +39,10 @@ const News = () => {
             <div className="card-info">
               <h4>article title</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                Natus, provident.
+                Lorem ipsum, dolor sit amet consectetur adipisicing.
               </p>
               <div className="card-footer">
-                <img src="./hero-img-small.jpeg" alt="author image" />
+                {/* <img src="./hero-img-small.jpeg" alt="author image" /> */}
                 <p>7 min read</p>
               </div>
             </div>
@@ -66,12 +61,10 @@ const News = () => {
             <div className="card-info">
               <h4>article title</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                Natus, provident.
+                Lorem ipsum dolor sit amet consectetur adipisicing.
               </p>
               <div className="card-footer">
-                <img src="./hero-img-small.jpeg" alt="author image" />
+                {/* <img src="./hero-img-small.jpeg" alt="author image" /> */}
                 <p>7 min read</p>
               </div>
             </div>
@@ -90,12 +83,10 @@ const News = () => {
             <div className="card-info">
               <h4>article title</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                Natus, provident.
+                Lorem ipsum dolor sit amet consectetur adipisicing.
               </p>
               <div className="card-footer">
-                <img src="./hero-img-small.jpeg" alt="author image" />
+                {/* <img src="./hero-img-small.jpeg" alt="author image" /> */}
                 <p>7 min read</p>
               </div>
             </div>

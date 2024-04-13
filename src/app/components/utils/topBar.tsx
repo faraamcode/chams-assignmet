@@ -9,7 +9,7 @@ import TopBarIcon from './topBarIcon';
 
 const TopBar = () => {
     return (
-        <div className="h-0 overflow-hidden md:h-8 w-full bg-blue-500">
+        <div className="h-0 overflow-hidden md:h-8  bg-blue-500">
             <div className="w-full h-full px-36 py-2 flex justify-between">
 
                 <div className="flex">

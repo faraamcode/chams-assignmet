@@ -11,11 +11,11 @@ const About = () => {
       <div className="section-center about-center">
         {/* <!-- about img --> */}
         <article className="about-img">
-          <img
+          {/* <img
             src="./images/about-img.jpeg"
             className="hero-photo"
             alt="about img"
-          />
+          /> */}
         </article>
         {/* <!-- about info --> */}
         <article className="about-info">
@@ -44,7 +44,7 @@ const About = () => {
             that empowers pupils to become successful, well-rounded individuals who are
             confident, creative, and curious learners.
           </p>
-          <a href="about.html" className="btn">Read more...</a>
+          <a href="/" className="btn">Read more...</a>
         </article>
       </div>
     </section>

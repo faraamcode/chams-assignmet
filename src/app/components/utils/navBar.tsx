@@ -4,18 +4,16 @@ import React, {useRef, useEffect, useState} from 'react'
 import Image from 'next/image';
 import SchoolLogo from "../../../assets/logo.png"
 import NavBarLink from './navBarLink';
+import { FaBars } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 
 
 const NavBar = () => {
   const navbar:any =  useRef(null);
-  // const navBtn =  useRef(null)
-  // const closeBtn =useRef(null) 
   const sidebar:any = useRef(null) 
-  // const date = document.querySelector("#date");
 
   useEffect(()=>{
     const handleScroll = () => {
-      // Your scroll event handling logic here
       if (window.pageYOffset > 80) {
         navbar?.current?.classList.add("navbar-fixed");
       } else {
@@ -59,22 +57,22 @@ const NavBar = () => {
           <div className="nav-header">
             <Image src={SchoolLogo} width="50" className="nav-logo" alt="nav logo" />
             <button className="nav-btn" onClick={openSideBar} id="nav-btn">
-              <i className="fas fa-bars"></i>
+              <FaBars/>
             </button>
           </div>
           {/* <!-- nav-links --> */}
           <ul className="nav-links">
             <li>
-              <a href="index.html">home</a>
+              <a href="/">home</a>
             </li>
             <li>
-              <a href="about.html">about us</a>
+              <a href="/">about us</a>
             </li>
             <li>
-              <a href="projects.html">Admission</a>
+              <a href="/">Admission</a>
             </li>
             <li>
-              <a href="contact.html">contact us</a>
+              <a href="/">contact us</a>
             </li>
           </ul>
         </div>
@@ -82,23 +80,24 @@ const NavBar = () => {
       {/* <!-- end of navbar --> */}
       {/* <!-- sidebar --> */}
       <aside className="sidebar"  ref={sidebar} id="sidebar">
-        <div>
+        <div>/
+
           <button className="close-btn"  onClick={closeSideBar} id="close-btn">
-            <i className="fas fa-times"></i>
+            <IoMdClose/>
           </button>
           {/* <!-- nav-links --> */}
           <ul className="sidebar-links">
             <li>
-              <a href="index.html">home</a>
+              <a href="/">home</a>
             </li>
             <li>
-              <a href="about.html">about us</a>
+              <a href="/">about us</a>
             </li>
             <li>
-              <a href="projects.html">Admission</a>
+              <a href="/">Admission</a>
             </li>
             <li>
-              <a href="contact.html">contact us</a>
+              <a href="/">contact us</a>
             </li>
           </ul>
           {/* <!-- social icons --> */}
