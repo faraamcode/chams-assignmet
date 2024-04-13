@@ -4,6 +4,7 @@ import Projet1 from "../../../assets/project-1.jpeg"
 import Project2 from "../../../assets/project-2.jpeg"
 import Project3 from "../../../assets/project-3.jpeg"
 import Project4 from "../../../assets/project-4.jpeg"
+import Link from 'next/link'
 
 const Gallery = () => {
     return (
@@ -15,7 +16,7 @@ const Gallery = () => {
             {/* <!--end of section title --> */}
             <div className="section-center projects-center">
                 {/* <!-- single project --> */}
-                <a href="/" className="project-1">
+                <Link href="/" className="project-1">
                     <article className="project">
                         <Image
                             width={100}
@@ -29,10 +30,10 @@ const Gallery = () => {
                             <p>Unlocking worlds through the power of knowledge</p>
                         </div>
                     </article>
-                </a>
+                </Link>
                 {/* <!-- end of single project --> */}
                 {/* <!-- single project --> */}
-                <a href="/" className="project-2">
+                <Link href="/" className="project-2">
                     <article className="project">
                         <Image
                             width={100}
@@ -46,9 +47,9 @@ const Gallery = () => {
                             <p>Exploring the realms of science one experiment at a time.</p>
                         </div>
                     </article>
-                </a>
+                </Link>
                 {/* <!-- end of single project --><!-- single project --> */}
-                <a href="/" className="project-3">
+                <Link href="/" className="project-3">
                     <article className="project">
                         <Image
                             width={100}
@@ -62,9 +63,9 @@ const Gallery = () => {
                             <p>Where champions rise and dreams take flight.</p>
                         </div>
                     </article>
-                </a>
+                </Link>
                 {/* <!-- end of single project --><!-- single project --> */}
-                <a href="/" className="project-4">
+                <Link href="/" className="project-4">
                     <article className="project">
                         <Image
                             width={100}
@@ -78,7 +79,7 @@ const Gallery = () => {
                             <p>Where minds ignite and futures take shape</p>
                         </div>
                     </article>
-                </a>
+                </Link>
                 {/* <!-- end of single project --> */}
             </div>
         </section>

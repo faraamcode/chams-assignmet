@@ -63,16 +63,16 @@ const NavBar = () => {
           {/* <!-- nav-links --> */}
           <ul className="nav-links">
             <li>
-              <a href="/">home</a>
+              <Link href="/">home</Link>
             </li>
             <li>
-              <a href="/">about us</a>
+              <Link href="/">about us</Link>
             </li>
             <li>
-              <a href="/">Admission</a>
+              <Link href="/">Admission</Link>
             </li>
             <li>
-              <a href="/">contact us</a>
+              <Link href="/">contact us</Link>
             </li>
           </ul>
         </div>
@@ -88,44 +88,44 @@ const NavBar = () => {
           {/* <!-- nav-links --> */}
           <ul className="sidebar-links">
             <li>
-              <a href="/">home</a>
+              <Link href="/">home</Link>
             </li>
             <li>
-              <a href="/">about us</a>
+              <Link href="/">about us</Link>
             </li>
             <li>
-              <a href="/">Admission</a>
+              <Link href="/">Admission</Link>
             </li>
             <li>
-              <a href="/">contact us</a>
+              <Link href="/">contact us</Link>
             </li>
           </ul>
           {/* <!-- social icons --> */}
           <ul className="social-icons">
             <li>
-              <a href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter.com" className="social-icon">
                 <i className="fab fa-facebook"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter.com" className="social-icon">
                 <i className="fab fa-linkedin"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter.com" className="social-icon">
                 <i className="fab fa-squarespace"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter.com" className="social-icon">
                 <i className="fab fa-behance"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter.com" className="social-icon">
                 <i className="fab fa-instagram"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

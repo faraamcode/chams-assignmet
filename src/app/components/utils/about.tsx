@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -44,7 +45,7 @@ const About = () => {
             that empowers pupils to become successful, well-rounded individuals who are
             confident, creative, and curious learners.
           </p>
-          <a href="/" className="btn">Read more...</a>
+          <Link href="/" className="btn">Read more...</Link>
         </article>
       </div>
     </section>

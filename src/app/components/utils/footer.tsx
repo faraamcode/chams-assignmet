@@ -6,29 +6,29 @@ const Footer = () => {
             {/* <!-- social icons --> */}
             <ul className="social-icons">
                 <li>
-                    <a href="https://www.twitter.com" className="social-icon">
+                    <Link href="https://www.twitter.com" className="social-icon">
                         <i className="fab fa-facebook"></i>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com" className="social-icon">
+                    <Link href="https://www.twitter.com" className="social-icon">
                         <i className="fab fa-linkedin"></i>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com" className="social-icon">
+                    <Link href="https://www.twitter.com" className="social-icon">
                         <i className="fab fa-squarespace"></i>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com" className="social-icon">
+                    <Link href="https://www.twitter.com" className="social-icon">
                         <i className="fab fa-behance"></i>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com" className="social-icon">
+                    <Link href="https://www.twitter.com" className="social-icon">
                         <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                 </li>
             </ul>
 

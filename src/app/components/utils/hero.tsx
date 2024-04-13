@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -8,33 +9,33 @@ const Hero = () => {
             {/* <!-- <div className="underline"></div> --> */}
             <h1>Wonder Sprout Academy</h1>
             <h4>Empowering Young Minds for a Brighter Future</h4>
-            <a href="/" className="btn hero-btn">contact us</a>
+            <Link href="/" className="btn hero-btn">contact us</Link>
             {/* <!-- social icons --> */}
             <ul className="social-icons hero-icons">
               <li>
-                <a href="https://www.twitter.com" className="social-icon">
+                <Link href="https://www.twitter.com" className="social-icon">
                   <i className="fab fa-facebook"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.twitter.com" className="social-icon">
+                <Link href="https://www.twitter.com" className="social-icon">
                   <i className="fab fa-linkedin"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.twitter.com" className="social-icon">
+                <Link href="https://www.twitter.com" className="social-icon">
                   <i className="fab fa-squarespace"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.twitter.com" className="social-icon">
+                <Link href="https://www.twitter.com" className="social-icon">
                   <i className="fab fa-behance"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.twitter.com" className="social-icon">
+                <Link href="https://www.twitter.com" className="social-icon">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </article>
