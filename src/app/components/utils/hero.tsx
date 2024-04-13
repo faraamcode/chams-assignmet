@@ -39,7 +39,7 @@ const Hero = () => {
             </ul>
           </article>
           {/* <!-- <article className="hero-img">
-            <img src="./images/hero-img.jpeg" className="hero-photo" alt="john doe" />
+            <Image width={100} height={100} src="./images/hero-img.jpeg" className="hero-photo" alt="john doe" />
           </article> --> */}
         </div>
       </header>
