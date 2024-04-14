@@ -3,39 +3,23 @@
 @tailwind utilities;
 
 
-/*
-=============== 
-Fonts
-===============
-*/
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 
-/*
-=============== 
-Variables
-===============
-*/
 
 :root {
-  /* dark shades of primary color*/
   --clr-primary-1: hsl(236, 90%, 45%);
   --clr-primary-2: hsl(234, 77%, 27%);
   --clr-primary-3: hsl(230, 72%, 37%);
   --clr-primary-4: hsl(229, 63%, 48%);
-  /* primary/main color */
   --clr-primary-5: hsl(228, 78%, 60%);
-  /* lighter shades of primary color */
   --clr-primary-6: hsl(226, 89%, 70%);
   --clr-primary-7: hsl(224, 90%, 76%);
   --clr-primary-8: hsl(222, 86%, 81%);
   --clr-primary-9: hsl(220, 90%, 88%);
   --clr-primary-10: hsl(218, 100%, 96%);
-  /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
@@ -53,11 +37,7 @@ Variables
   --max-width: 1170px;
 }
 
-/*
-=============== 
-Global Styles
-===============
-*/
+
 
 *,
 ::after,
@@ -149,7 +129,7 @@ p {
   }
 }
 
-/*  global classes */
+
 
 .btn {
   text-transform: uppercase;
@@ -175,7 +155,7 @@ p {
   background: var(--clr-primary-7);
 }
 
-/* section */
+
 .section {
   padding: 3rem 0;
 }
@@ -192,7 +172,7 @@ p {
   }
 }
 
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -216,11 +196,8 @@ p {
   background: var(--clr-grey-10);
 }
 
-/*
-=============== 
-Navbar
-===============
-*/
+
+
 .nav-links {
   display: none;
 }
@@ -309,11 +286,8 @@ Navbar
   background: var(--clr-primary-2);
 }
 
-/*
-=============== 
-Sidebar
-===============
-*/
+
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -394,12 +368,8 @@ Sidebar
   color: #e66b6b;
 }
 
-/*
-=============== 
-Hero
-===============
-*/
-/* underline added to globals */
+
+
 .hero .underline {
   margin-bottom: 0.5rem;
   margin-left: 0;
@@ -465,12 +435,8 @@ Hero
   position: relative;
 }
 
-/*
-=============== 
-About
-===============
-*/
-/* section title added to globals */
+
+
 .about-title {
   text-align: left;
   margin-bottom: 0.8rem;
@@ -511,12 +477,7 @@ About
   }
 }
 
-/*
-=============== 
-Services
-===============
-*/
-/* bg-grey in globals */
+
 .service {
   background: var(--clr-white);
   padding: 3rem 1.5rem;
@@ -573,13 +534,7 @@ Services
   }
 }
 
-/* talk about small screen 
-without grid different setup */
-/*
-=============== 
-Projects
-===============
-*/
+
 .projects-text {
   width: 85vw;
   max-width: 30rem;
@@ -701,11 +656,7 @@ Projects
   }
 }
 
-/*
-=============== 
-Connect
-===============
-*/
+
 .connect {
   min-height: 40vh;
   position: relative;
@@ -781,11 +732,7 @@ Connect
   clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
 }
 
-/*
-=============== 
-Skills
-===============
-*/
+
 @media screen and (min-width: 768px) {
   .skills-center {
     display: grid;
@@ -857,11 +804,7 @@ Skills
   left: 80%;
 }
 
-/*
-=============== 
-Timeline
-===============
-*/
+
 .timeline-center {
   width: 80vw;
   max-width: 40rem;
@@ -930,11 +873,7 @@ Timeline
   transform: translate(50%, -50%);
 }
 
-/*
-=============== 
-Blog
-===============
-*/
+
 .blog {
   background: var(--clr-grey-10);
 }
@@ -942,7 +881,7 @@ Blog
 .card {
   height: 20rem;
   position: relative;
-  /* talk later */
+
   -webkit-perspective: 1500px;
   perspective: 1500px;
 }
@@ -984,7 +923,7 @@ Blog
   transform: rotateY(0);
 }
 
-/* rest of the styles */
+
 .card-info {
   padding: 1rem 1.5rem;
 }
@@ -1027,11 +966,7 @@ Blog
 }
 
 
-/* 
-=============== 
-Blog
-=============== 
-*/
+
 .news {
   background: var(--clr-grey-10);
 }
@@ -1041,13 +976,8 @@ Blog
   gap: 1rem .2rem;
   justify-items: center;
 }
-/* .team-photo{
-  height: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* overflow: hidden; */
-/* } */
+
+
 .team-photo img{
   height: 8rem;
   width: 8rem;
@@ -1064,11 +994,7 @@ Blog
 }
 
 
-/*
-=============== 
-Footer
-===============
-*/
+
 .footer {
   padding-bottom: 2rem;
   background: #222;
@@ -1093,11 +1019,7 @@ Footer
   text-transform: capitalize;
 }
 
-/*
-=============== 
-Single Page
-===============
-*/
+
 .single-page {
   background: var(--clr-primary-10);
   min-height: calc(100vh - 5rem - 198px);
@@ -1118,11 +1040,8 @@ Single Page
   color: var(--clr-primary-1);
 }
 
-/*
-=============== 
-Products Page
-===============
-*/
+
+
 .projects-hero {
   height: 40vh;
   background: var(--clr-primary-10);
