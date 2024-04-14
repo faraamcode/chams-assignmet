@@ -1,4 +1,5 @@
 import About from "./components/utils/about";
+import Connect from "./components/utils/connect";
 import Footer from "./components/utils/footer";
 import Gallery from "./components/utils/gallery";
 import Hero from "./components/utils/hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <About/>
+      {/* <Connect/> */}
       <Gallery/>
       <News/>
       <Team/>
