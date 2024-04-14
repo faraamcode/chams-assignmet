@@ -381,7 +381,7 @@ p {
 
 .hero {
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/project-1.jpeg") center/cover no-repeat;
+    url("https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg") center/cover no-repeat;
 }
 
 .hero-center {
