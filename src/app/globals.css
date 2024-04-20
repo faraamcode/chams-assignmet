@@ -6,6 +6,7 @@
 
 
 :root {
+ --img: url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg);
   --clr-primary-1: hsl(236, 90%, 45%);
   --clr-primary-2: hsl(234, 77%, 27%);
   --clr-primary-3: hsl(230, 72%, 37%);
@@ -1112,3 +1113,18 @@ p {
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 3rem 1rem;
 }
+
+
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+

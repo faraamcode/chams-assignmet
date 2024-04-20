@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <header className="hero">
+        <header className="hero embla__slide">
         <div className="section-center hero-center">
           <article className="hero-info">
             {/* <!-- <div className="underline"></div> --> */}
