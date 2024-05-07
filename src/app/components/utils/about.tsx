@@ -12,11 +12,10 @@ const About = () => {
       <div className="section-center about-center">
         {/* <!-- about img --> */}
         <article className="about-img">
-          {/* <img
-            src="./images/about-img.jpeg"
-            className="hero-photo"
-            alt="about img"
-          /> */}
+          <video controls={false} autoPlay muted className='about-video'>
+            <source src="/connect.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </article>
         {/* <!-- about info --> */}
         <article className="about-info">

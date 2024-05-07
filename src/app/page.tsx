@@ -16,14 +16,14 @@ export default function Home() {
       {/* <TopBar /> */}
       <NavBar />
       {/* <Hero /> */}
-      <Corousel/>
-      <About/>
-      {/* <Connect/> */}
-      <Gallery/>
-      <Director/>
-      <News/>
-      <Team/>
-      <Footer/>
+      <Corousel />
+      <About />
+      <Connect />
+      <Director />
+      <Gallery />
+      <News />
+      <Team />
+      <Footer />
     </>
   );
 }

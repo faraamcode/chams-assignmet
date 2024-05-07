@@ -6,7 +6,7 @@
 
 
 :root {
- --img: url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg);
+  --img: url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg);
   --clr-primary-1: hsl(236, 90%, 45%);
   --clr-primary-2: hsl(234, 77%, 27%);
   --clr-primary-3: hsl(230, 72%, 37%);
@@ -187,7 +187,8 @@ p {
   margin-bottom: 2rem;
   text-align: center;
 }
-.section-title h2{
+
+.section-title h2 {
   text-transform: uppercase;
   font-weight: 900;
 
@@ -205,6 +206,7 @@ p {
 
 .nav {
   height: 5rem;
+  z-index: 4;
   padding: 1rem;
   display: grid;
   -webkit-box-align: center;
@@ -281,10 +283,11 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 4;
   box-shadow: var(--light-shadow);
   background: var(--clr-primary-2);
 }
+
 
 
 
@@ -376,9 +379,19 @@ p {
   display: none;
 }
 
-.hero {
-  background: linear-gradient(rgba(39, 32, 158, 0.7), rgba(0, 0, 0, 0.7)),
-    url("https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg") center/cover no-repeat;
+.hero-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("/project-1.jpeg") center/cover no-repeat;
+}
+
+.hero-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("/project-3.jpeg") center/cover no-repeat;
+}
+
+.hero-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("/project-4.jpeg") center/cover no-repeat;
 }
 
 .hero-center {
@@ -410,8 +423,7 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-img::before,
-  .about-img::before {
+  .hero-img::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -453,21 +465,22 @@ p {
 }
 
 .about-img {
-  justify-self: center;
+  /* justify-self: center; */
+  background: red;
 }
+
+.about-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 @media screen and (min-width: 992px) {
   .about-center {
     grid-template-columns: 1fr 1fr;
   }
 
-  .about-img {
-    position: relative;
-  }
-
-  .about-img::before {
-    left: -2rem;
-  }
 
   .about-info {
     align-self: center;
@@ -599,7 +612,8 @@ p {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
 }
-.projects-center{
+
+.projects-center {
   width: 100vw;
 }
 
@@ -966,7 +980,8 @@ p {
 .news {
   background: var(--clr-grey-10);
 }
-.news-center{
+
+.news-center {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
   gap: 1rem .2rem;
@@ -974,18 +989,19 @@ p {
 }
 
 
-.team-photo img{
+.team-photo img {
   height: 8rem;
   width: 8rem;
   border-radius: 50%;
   -o-object-fit: cover;
   object-fit: center;
-} 
+}
 
-.team-card-body{
+.team-card-body {
   background-color: black;
 }
-.bg-card-team{
+
+.bg-card-team {
   background: var(--clr-primary-2);
 }
 
@@ -999,7 +1015,8 @@ p {
   align-items: center;
   /* place-items: center; */
 }
-.courtesy{
+
+.courtesy {
   display: flex;
 }
 
@@ -1119,12 +1136,79 @@ p {
 .embla {
   overflow: hidden;
 }
+
 .embla__container {
   display: flex;
 }
+
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
 }
 
+.section-full {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--clr-primary-8);
+  margin-bottom: 2rem;
+}
 
+.article-img {
+  flex: 0 0 50%;
+  position: relative;
+}
+
+.article-info {
+  flex: 0 0 50%;
+  padding: 2rem 2rem;
+}
+
+.article-info {
+  background: var(--clr-primary-9);
+}
+
+@media screen and (min-width: 992px) {
+  .section-full {
+    flex-direction: row;
+    max-height: 30rem;
+    margin-bottom: 0;
+
+  }
+
+  .section-reverse {
+    flex-direction: row-reverse;
+  }
+
+}
+
+.article-photo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+.connect-video-container {
+  position: relative;
+  background: yellow;
+  width: 100%;
+  height: 70vh;
+}
+
+.video-connect {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.connect-btn {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
