@@ -22,7 +22,7 @@ export default function Home() {
       <Director />
       <Gallery />
       <News />
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </>
   );
