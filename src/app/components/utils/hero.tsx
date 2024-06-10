@@ -20,27 +20,27 @@ const Hero = ({ heroClass, heroHeading, heroText, btnText, btnUrl }: HeroInterfa
           {/* <!-- social icons --> */}
           <ul className="social-icons hero-icons">
             <li>
-              <Link href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter3.com" className="social-icon">
                 <i className="fab fa-facebook"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter4.com" className="social-icon">
                 <i className="fab fa-linkedin"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter90.com" className="social-icon">
                 <i className="fab fa-squarespace"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter09.com" className="social-icon">
                 <i className="fab fa-behance"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://www.twitter.com" className="social-icon">
+              <Link href="https://www.twitter908.com" className="social-icon">
                 <i className="fab fa-instagram"></i>
               </Link>
             </li>

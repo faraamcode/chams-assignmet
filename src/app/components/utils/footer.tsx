@@ -12,19 +12,19 @@ const Footer = () => {
             icons: [
                 {
                     icon: FaFacebook,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter1.com"
                 },
                 {
                     icon: FaLinkedin,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter2.com"
                 },
                 {
                     icon: FaInstagram,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter3.com"
                 },
                 {
                     icon: FaTwitter,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter4.com"
                 },
             ]
         },
@@ -51,15 +51,15 @@ const Footer = () => {
             icons: [
                 {
                     icon: MdLocationPin,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter7.com"
                 },
                 {
                     icon: FaEnvelope,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter8.com"
                 },
                 {
                     icon: FaPhoneAlt,
-                    url: "https://www.twitter.com"
+                    url: "https://www.twitter9.com"
                 },
             ]
         },
