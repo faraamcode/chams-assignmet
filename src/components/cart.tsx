@@ -28,8 +28,10 @@ function Cart() {
                     }
                 </div>
                 <div className="total  flex justify-between basis-1/6">
-                    <p>Total price: #9000</p>
-                    <p>Total items: 4</p>
+                    <p>Total price: ₦{cart?.reduce((accumulator, item) => {
+                        return accumulator + Number(item?.amount) || 0;
+                    }, 0) || 0}</p>
+                    <p>Total items: {cart?.length || 0}</p>
                 </div>
                 <div className="cart-button-container  flex justify-center basis-1/6">
                     <HeroButton text="Checkout" handleClick={() => toggleCart()} />
