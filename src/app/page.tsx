@@ -1,29 +1,27 @@
-import About from "./components/utils/about";
-import Connect from "./components/utils/connect";
-import Corousel from "./components/utils/corousel";
-import Director from "./components/utils/director";
-import Footer from "./components/utils/footer";
-import Gallery from "./components/utils/gallery";
-import Hero from "./components/utils/hero";
-import NavBar from "./components/utils/navBar";
-import News from "./components/utils/news";
-import Team from "./components/utils/team";
-// import TopBar from "./components/utils/topBar";
+
+import TopBar from "../components/topbar";
+import CategoryBar from "../components/categoryBar";
+import Dashboard from "../components/dashboard";
+import NewsLetter from "@/components/newsLetter";
+import Footer from "../components/footer";
+import { AppProvider } from "@/context/provider";
+import Cart from "@/components/cart";
+
+
+
 
 export default function Home() {
   return (
     <>
-      {/* <TopBar /> */}
-      <NavBar />
-      {/* <Hero /> */}
-      <Corousel />
-      <About />
-      <Connect />
-      <Director />
-      <Gallery />
-      <News />
-      {/* <Team /> */}
-      <Footer />
+      <AppProvider>
+        <TopBar />
+        <CategoryBar />
+        <Dashboard />
+        <NewsLetter />
+        {/* <Cart /> */}
+        <Footer />
+      </AppProvider>
+
     </>
   );
 }
